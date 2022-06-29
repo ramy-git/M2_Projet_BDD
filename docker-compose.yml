@@ -8,9 +8,9 @@ services:
     build: tweet_collector/
     volumes:
     - ./tweet_collector/:/app
-    depends_on: # Dumps to mongodb thus mongodb container is necessary
+    depends_on: 
       - mongodb
-    environment: #Needs these keys declared as env_vars in your system
+    environment: 
       - TW_API_KEY=${TW_API_KEY}
       - TW_API_SECRET=${TW_API_SECRET}
       - TW_ACC_TOKEN=${TW_ACC_TOKEN}
