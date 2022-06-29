@@ -1,8 +1,8 @@
 # ETL pipeline
 
-![Pipeline-Diagram](https://github.com/AlphanAksoyoglu/tweeter-etl-pipeline/blob/main/tweet_collector.png?raw=true)
+![Pipeline-Diagram]()
 
-- [Contenus]()
+- [INDEX]()
   * [Tech Stack](#tech-stack)
   * [Description](#description)
   * [Pipeline](#pipeline)
@@ -11,7 +11,7 @@
     + [Postgres SQL](#postgres-sql)
     + [ETL Job](#etl-job)
     + [Discordbot](#Discordbot)
-  * [Contributors](#contributors)
+  * [Equipe](#equipe)
   * [Perspective](#perspective)
 
 ### Tech Stack
