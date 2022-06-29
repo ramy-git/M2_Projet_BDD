@@ -57,10 +57,10 @@ services:
     build: discordbot/
     volumes:
     - ./discordbot/:/app
-    depends_on: # This reads from postgres thus requires postgres to run
+    depends_on: # This reads from postgres thus requires postgres to run, mangodb dont need to run on this case
     - postgresdb
     restart: on-failure
-    environment: #Needs these keys declared as env_vars in your system
+    environment: 
     - POSTGRES_USER=${TW_PG_USER}
     - POSTGRES_PASSWORD=${TW_PG_PASS}
     - POSTGRES_DB=${TW_PG_DBNAME}
