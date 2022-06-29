@@ -1,6 +1,6 @@
 # ETL pipeline
 
-![Pipeline-Diagram]()
+![Pipeline-Diagram](https://github.com/ramy-git/M2_Projet_BDD/blob/main/tweet_collector.png)
 
 - [INDEX]()
   * [Tech Stack](#tech-stack)
